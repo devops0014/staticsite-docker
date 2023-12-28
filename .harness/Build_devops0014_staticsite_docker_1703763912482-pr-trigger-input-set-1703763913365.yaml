@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_devops0014_staticsite_docker_1703763912482-pr-trigger-input-set
+  identifier: Build_devops0014_staticsite_docker_1703763912482prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_devops0014_staticsite_docker_1703763912482
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
